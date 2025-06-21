@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<title>Portfolio</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar">
+    <ul>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#experiences">Expériences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+<div class="flex flex-col md:flex-row h-screen">
+  <!-- Image -->
+<div class="bg-[url('/img/bg-header.png')] bg-contain bg-no-repeat bg-center h-64 md:h-screen w-full md:w-1/2"></div>
+
+  <!-- Texte -->
+  <div class="w-full md:w-1/2 flex items-center justify-center flex-col px-8 text-left">
+    <h1 style="font-family: 'Bricolage Grotesque', sans-serif" class="text-6xl font-bold mb-4 self-start">Helloooo, </br> je suis Stella !</h1>
+    <p class="mb-6">
+      Graphiste en reconversion vers le développement web, je me
+      forme actuellement chez Ada Tech School. Je recherche une
+      <span class="bg-[#FFE6DE] px-1 font-semibold">
+      alternance de 12 à 24 mois en contrat de professionnalisation à
+      partir de septembre 2025</span>, au rythme de 4 jours en entreprise et 1 jour
+      en formation, afin de mettre mes compétences créatives et
+      techniques au service de projets numériques ambitieux.
+    </p>
+      <a href="mailto:stellab95@hotmail.fr" class="border-2 border-black bg-white px-4 py-2 text-sm font-semibold hover:bg-black hover:text-white transition self-start">
+        Contactez-moi !
+      </a>
+  </div>
+  
+</div>
+
+  <!-- PROJETS -->
+<section id="projets" class="flex flex-col items-center py-12 bg-[#FFF5F2] border-t-2 border-b-2 border-black mb-12">
+  <h2 style="font-family: 'Bricolage Grotesque', sans-serif" class="text-5xl font-bold mb-8 text-center">Mes projets</h2>
+
+  <!-- Container des cards -->
+<div class="flex flex-col md:flex-row flex-wrap justify-center items-center gap-8  pb-12">    
+
+    <!-- MÖBEL CARD -->
+    <div class="relative inline-block">
+        <div class="absolute top-1 left-1 w-full h-full bg-black"></div>
+
+    <!-- Card -->
+    <div class="relative z-10 border-2 border-black bg-white w-[500px]">
+        
+            <!-- <div class="bg-indigo-400 border-b-2 border-black text-sm font-mono flex items-center justify-between px-4 py-2">
+            <div class="flex space-x-2">
+                <div class="w-3 h-3 border-2 border-black rounded-full bg-white"></div>
+                <div class="w-3 h-3 border-2 border-black rounded-full bg-white"></div>
+            </div>
+            <span>2024-10-08-project.html</span>
+            <div class="w-6"></div>
+            </div> -->
+            <img src="/img/mobel-cover.png" alt="image" class="w-full h-64 object-cover" />
+
+            <div class="p-4 pb-10">
+            <h2 class="text-xl font-bold">MÖBEL</h2>
+                <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">React | Express | Node.JS</p>
+            <p class="text-sm text-gray-800 mb-8">
+                Site e-commerce de gestion/vente de meubles de seconde main. (Projet collectif Ada).
+            </p>
+            <a href="https://moble-front.vercel.app/" target="_blank" class="border-2 border-black bg-white px-4 py-2 text-sm font-semibold hover:bg-black hover:text-white transition">
+                voir le projet
+            </a>
+            </div>
+    </div>
+    </div>
+
+    <!-- CODEZILLA KIDS CARD -->
+    <div class="relative inline-block">
+    <div class="absolute top-1 left-1 w-full h-full bg-black"></div>
+
+    <div class="relative z-10 border-2 border-black bg-white w-[500px]">
+    
+    <!-- <div class="bg-indigo-400 border-b-2 border-black text-sm font-mono flex items-center justify-between px-4 py-2">
+        <div class="flex space-x-2">
+        <div class="w-3 h-3 border-2 border-black rounded-full bg-white"></div>
+        <div class="w-3 h-3 border-2 border-black rounded-full bg-white"></div>
+    </div>
+
+      <span>final-project-v36.html</span>
+      <div class="w-6"></div>
+    </div> -->
+
+    <img src="/img/codezilla-cover.png" alt="image" class="w-full h-64 object-cover" />
+
+    <div class="p-4 pb-10">
+      <h2 class="text-xl font-bold">CODEZILLA KIDS</h2>
+      <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">Javascript | HTML | CSS</p>
+      <p class="text-sm text-gray-800 mb-8">
+          Site web qui permet aux enfants d’apprendre à coder de manière ludique. (Projet collectif Ada)
+      </p>
+      <a href="https://github.com/adatechschool/projet-quiz-codezilla-s-girls" target="_blank" class="border-2 border-black bg-white px-4 py-2 text-sm font-semibold hover:bg-black hover:text-white transition">
+        voir le repo
+      </a>
+    </div>
+  </div>
+</div>
+
+    <!-- ASE CARD -->
+    <div class="relative inline-block">
+    <div class="absolute top-1 left-1 w-full h-full bg-black"></div>
+
+    <div class="relative z-10 border-2 border-black bg-white w-[500px]">
+    
+    <!-- <div class="bg-indigo-400 border-b-2 border-black text-sm font-mono flex items-center justify-between px-4 py-2">
+        <div class="flex space-x-2">
+        <div class="w-3 h-3 border-2 border-black rounded-full bg-white"></div>
+        <div class="w-3 h-3 border-2 border-black rounded-full bg-white"></div>
+    </div>
+
+      <span>project-final-final-v18.html</span>
+      <div class="w-6"></div>
+    </div> -->
+
+    <img src="/img/ase-cover.png" alt="image" class="w-full h-64 object-cover" />
+
+    <div class="p-4 pb-10">
+      <h2 class="text-xl font-bold">ASSOCIATION DES SOMMELIERS D'EUROPE</h2>
+      <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">Javascript | PHP | HTML | CSS</p>
+      <p class="text-sm text-gray-800 mb-8">
+        Refonte du site web de l’Association des Sommeliers d’Europe. Projet présenté pour le passage du titre RNCP niveau III.
+      </p>
+    <a href="https://github.com/stellab95/associationDesSommeliersdEurope" target="_blank" class="border-2 border-black bg-white px-4 py-2 text-sm font-semibold hover:bg-black hover:text-white transition">
+        voir le repo
+    </a>
+    </div>
+  </div>
+</div>
+
+
+    <!-- TIPPSY KIDS CARD -->
+    <div class="relative inline-block">
+    <div class="absolute top-1 left-1 w-full h-full bg-black"></div>
+
+    <div class="relative z-10 border-2 border-black bg-white w-[500px]">
+    
+    <img src="/img/tippsy-cover.png" alt="image" class="w-full h-64 object-cover" />
+
+    <div class="p-4 pb-10">
+      <h2 class="text-xl font-bold">TIPPSY (En cours de développement)</h2>
+      <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400"> React | Express | Node.JS</p>
+      <p class="text-sm text-gray-800 mb-8">
+          Site qui permet à un artiste de partager son travail en permettant à ses fans d’accéder à du contenu inédit selon leur abonnement.
+      </p>
+    <a href="https://github.com/stellab95/tippsy" target="_blank" class="border-2 border-black bg-white px-4 py-2 text-sm font-semibold hover:bg-black hover:text-white transition">
+        voir le repo
+    </a>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+</section>
+
+<section id="experiences" class="mb-12">
+  <h2 style="font-family: 'Bricolage Grotesque', sans-serif" class="text-5xl font-bold mb-12 text-center">Expériences</h2>
+
+  <div class="flex flex-col md:flex-row h-screen">
+
+  <!-- Texte -->
+  <div class="w-full md:w-1/2 flex items-center justify-center flex-col px-8 text-left">
+<div class="max-w-4xl mx-auto p-6 text-[#1E1E1E]">
+  <!-- EXPERIENCE -->
+  <h2 style="font-family: 'Bricolage Grotesque', sans-serif" class="text-2xl font-bold mb-6">Expériences professionelles</h2>
+  <div class="mb-12 border-t border-black pt-6">
+    <div class="grid grid-cols-3 gap-6">
+      <div>
+        <p>✦ 2020 - 2024</p>
+        <p class="text-sky-400 font-medium">Agent de courrier</p>
+        <p>La Poste</p>
+      </div>
+      <div>
+        <p>✦ 2014 - 2020</p>
+        <p class="text-sky-400 font-medium">Graphiste</p>
+        <p>Freelance</p>
+      </div>
+      <div>
+        <p>✦ 2013 - 2018</p>
+        <p class="text-sky-400 font-medium">Graphiste</p>
+        <p>2CO Image</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <h2 style="font-family: 'Bricolage Grotesque', sans-serif" class="text-2xl font-bold mb-6">Éducation</h2>
+  
+  <section class="mb-12 border-t border-black pt-6">
+    <div class="grid grid-cols-2 gap-6">
+    <div>
+        <p>✦ 2024 - 2025</p>
+        <p class="text-sky-400 font-medium">Ada Tech School</p>
+        <p>Préparation au titre RNCP niveau
+        VI "Conceptrice / Développeuse d'applications"</p>
+    </div>
+    <div>
+        <p>✦ 2018 - 2019</p>
+        <p class="text-sky-400 font-medium">Marcorel</p>
+        <p>Développeuse front end</p>
+    </div>
+</div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <h2 style="font-family: 'Bricolage Grotesque', sans-serif" class="text-2xl font-bold mb-6">Skills</h2>
+  <section class="border-t border-black pt-6">
+    <div class="grid grid-cols-2 gap-6">
+        <div>
+            <p class="text-sky-400 font-medium">✦ Front-end</p>
+            <p>HTML/CSS</p>
+            <p>Javascript</p>
+            <p>Tailwind</p>
+            <p>React</p>
+        </div>
+         <div>
+            <p class="text-sky-400 font-medium">✦ Back-end</p>
+            <p>MySQL</p>
+            <p>PHP</p>
+            <p>Node.JS</p>
+            <p>Express</p>
+        </div>
+        <div>
+            <p class="text-sky-400 font-medium">✦ Design</p>
+            <p>Figma/Sketch</p>
+            <p>Photoshop/Illustrator</p>
+            <p>Procreate</p>
+        </div>
+        <div>
+            <p class="text-sky-400 font-medium">✦ Outils</p>
+            <p>Git/Github</p>
+            <p>VS Code</p>
+        </div>
+    </div>
+  </section>
+</div>
+  </div>
+
+    <!-- Image -->
+<div class="bg-[url('/img/climb.png')] bg-contain bg-no-repeat bg-center h-64 md:h-screen w-full md:w-1/2"></div>
+
+</div>
+</section>
+
+
+<footer id="contact" class="relative border-t-2 border-black">
+  <!-- <h2 class="text-5xl font-bold mb-8 text-center font-bricolage">Contact</h2> -->
+
+  <div class="relative h-40 w-full bg-[url('/img/footer.png')] bg-cover bg-no-repeat bg-center">
+    <!-- Superposition centrée -->
+    <div class="absolute inset-0 flex flex-wrap justify-center items-center gap-4">
+      <a href="mailto:stellab95@hotmail.fr" class="border-2 border-black bg-white px-4 py-2 text-sm font-semibold hover:bg-black hover:text-white transition">
+        Contactez-moi par mail
+      </a>
+      <a href="https://www.linkedin.com/in/stella-boniface/" target="_blank" class="border-2 border-black bg-white px-4 py-2 text-sm font-semibold hover:bg-black hover:text-white transition">
+        Suivez-moi sur LinkedIn
+      </a>
+      <a href="https://github.com/stellab95" target="_blank" class="border-2 border-black bg-white px-4 py-2 text-sm font-semibold hover:bg-black hover:text-white transition">
+        Découvrez mon GitHub
+      </a>
+      <a href="/CV_Stella-Boniface_v6.pdf" download class="border-2 border-black bg-white px-4 py-2 text-sm font-semibold hover:bg-black hover:text-white transition">
+        Téléchargez mon CV
+      </a>
+    </div>
+  </div>
+</footer>
+
+</html>
+</body>
